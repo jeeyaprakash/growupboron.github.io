@@ -1,0 +1,36 @@
+#footer{
+	width: 100%;
+	background-color: #000;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	color: #ffffff;
+}
+
+#footer p{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 10px 20px;
+}
+
+#icons{
+	font-size: 25px;
+	display: flex;
+	justify-content: center;
+}
+
+#icons >*{
+	margin: 0 5px;
+}
+
+#footer a{
+	color: white;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#footer a:hover{
+	color: #ccc;
+	
+}
