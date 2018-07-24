@@ -31,7 +31,10 @@ li{
 	margin: 0px;
 }
 
-img{ align: center;}
+img {
+    max-width: 100%;
+    height: auto;
+}
 
 ul li a{
 	color: #4C9CF1;
